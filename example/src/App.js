@@ -33,7 +33,7 @@ const App = () => {
         <Col>
           <Form>
             <Form.Group>
-              <Form.Check label="Handle Spinner show" type="checkbox" onChange={() => handleShow(!show)} id="spinnerShow2" />
+              <Form.Check label="Handle Spinner show" type="checkbox" onChange={() => handleShow(!show)} id="spinnerShow2"  checked={show}/>
             </Form.Group>
 
             <Form.Group>

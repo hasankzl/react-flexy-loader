@@ -1,7 +1,7 @@
 {
   "name": "react-flexy-loader",
   "version": "1.0.2",
-  "description": "loader component for react application",
+  "description": "Loader component for react application",
   "author": "CoderSau",
   "license": "MIT",
   "repository": "CoderSau/react-flexy-loader",
