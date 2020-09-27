@@ -23,9 +23,8 @@ const ReactFlexyLoader = ({ show, children, alpha, zIndex, pointerEvents, positi
 
 ReactFlexyLoader.defaultProps = {
   show: true,
-  absolute: false,
   alpha: 0.3,
-  zIndex: 50,
+  zIndex: 99,
   pointerEvents: true,
   position: "middle"
 }
@@ -35,7 +34,7 @@ ReactFlexyLoader.propTypes = {
   absolute: propTypes.bool,
   alpha: propTypes.number,
   zIndex: propTypes.number,
-  allowPointerEvents: propTypes.bool,
+  pointerEvents: propTypes.bool,
   position: propTypes.string
 }
 

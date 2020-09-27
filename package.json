@@ -1,7 +1,7 @@
 {
   "name": "react-flexy-loader",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "loader component for react application",
   "author": "CoderSau",
   "license": "MIT",
   "repository": "CoderSau/react-flexy-loader",
@@ -11,6 +11,15 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "spinner",
+    "loader",
+    "react-spinner",
+    "react-loader",
+    "component",
+    "react-flexy",
+    "react-flexy-loader"
+  ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
